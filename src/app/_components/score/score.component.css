@@ -1,0 +1,11 @@
+.score-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(115, 46, 219, 0.531) */
+}
+
+.score-container > * {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+.cards-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.cards > * {
+    margin: 20px;
+}
+
+.cards {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    /* display: flex; */
+
+}
+
+.cards > img {
+    width: 100px;
+    height: auto;
+}

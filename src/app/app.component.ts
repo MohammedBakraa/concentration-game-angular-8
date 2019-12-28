@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'concentrate-card-angular';
+  score = {unmatchedFlips: 0, matchedFlips: 0};
+
+  receiveScore($event) {
+    this.score = $event;
+    
+    // console.log(this.score.unmatchedFlips);
+  }
 }
